@@ -1,21 +1,13 @@
+import React from 'react';
+import Header from './components/Header';
+import Meme from './components/Meme';
 import './App.css';
 
-import { data } from './data';
-
-function App() {
+export default function App() {
     return (
-        <main className='container'>
-            <ul>
-                {data.map((name) => {
-                    return (
-                        <li key={name} className='listItem'>
-                            {name}
-                        </li>
-                    );
-                })}
-            </ul>
-        </main>
+        <>
+            <Header />
+            <Meme />
+        </>
     );
 }
-
-export default App;
