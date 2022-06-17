@@ -56,4 +56,9 @@ main {
   color: white;
   border: none;
   cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.meme--image{
+  width: 100%;
 }
